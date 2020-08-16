@@ -19,10 +19,11 @@ function currentLine(currentLine){
     return "The line is currently empty.";
   }
   else{
-    let text = "The line is currently: "
+    let text = "The line is currently:"
     for (var i = 0; i < currentLine.length; i++) {
-      text += `${i+1}. ${currentLine[i]}, `
+      text += ` ${i+1}. ${currentLine[i]},`
     }
+    text.pop();
     return text;
   }
 }
