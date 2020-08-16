@@ -18,4 +18,7 @@ function currentLine(){
   if(currentLine.length == 0){
     return "The line is currently empty.";
   }
+  else{
+    let text = "The line is currently: "
+  }
 }
