@@ -14,11 +14,14 @@ function nowServing(currentLine){
   }
 }
 
-function currentLine(){
+function currentLine(currentLine){
   if(currentLine.length == 0){
     return "The line is currently empty.";
   }
   else{
     let text = "The line is currently: "
+    for (var i = 0; i < array.length; i++) {
+      array[i]
+    }
   }
 }
