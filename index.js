@@ -8,7 +8,7 @@ function nowServing(currentLine){
     return "There is nobody waiting to be served!";
   }
   else{
-    
+    return `Currently serving ${currentLine[0]}`
   }
 
 }
