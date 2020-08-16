@@ -12,5 +12,10 @@ function nowServing(currentLine){
     currentLine.shift();
     return `Currently serving ${nowServing}.`;
   }
+}
 
+function currentLine(){
+  if(currentLine.length == 0){
+    return "The line is currently empty.";
+  }
 }
