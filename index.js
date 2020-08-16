@@ -23,7 +23,7 @@ function currentLine(currentLine){
     for (var i = 0; i < currentLine.length; i++) {
       text += ` ${i+1}. ${currentLine[i]},`
     }
-    text.slice(0, -1);
+    text.slice(0, -2);
     return text;
   }
 }
