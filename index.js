@@ -1,3 +1,3 @@
-function takeANumber(currentLine, newPeople){
-
+function takeANumber(currentLine, newPerson){
+  
 }
